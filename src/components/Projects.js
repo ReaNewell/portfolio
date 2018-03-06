@@ -9,7 +9,7 @@ const Projects = () => (
                 imagelocation="/img/listlist.png" 
                 name="ListList"
                 address="/listlist"
-                description="Simple to-do application with fields for subject, assignment, and due date."
+                description="Make a list of items with this simple React application."
             />
             <Project 
                 imagelocation="/img/word-counter.png"
