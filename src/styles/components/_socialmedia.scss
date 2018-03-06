@@ -1,0 +1,34 @@
+.homepage-socialmedia {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.homepage-socialmedia-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.homepage-socialmedia img {
+    border: 1px solid rgb(21, 63, 129);
+    border-radius: 100px;
+    display: block;
+    margin: 5px auto;
+  
+    padding: 15px;
+  
+    width: 50px;
+    height: 50px;
+}
+
+
+
+@media (min-width: $desktop-breakpoint) {
+    .homepage-socialmedia {
+        font-size: 2.2rem;
+    }
+    .homepage-socialmedia img {
+        width: 140px;
+        height: 140px;
+    }
+}

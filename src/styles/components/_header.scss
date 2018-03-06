@@ -1,0 +1,29 @@
+.homepage-header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+
+    background-image: url(/img/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.homepage-header h1 {
+    font-size: $xl-size;
+    text-align: center;
+}
+
+.homepage-header h2 {
+    font-size: $l-size;
+    text-align: center;
+}
+
+
+
+@media (min-width: $desktop-breakpoint) {
+    width: 100vw;
+}

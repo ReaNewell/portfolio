@@ -1,0 +1,57 @@
+.homepage-projects h2 {
+    margin-bottom: 25px;
+    margin-right: $s-size;
+    text-align: right;
+    color: #90D5EE;
+    font-size: 40px;
+    border-left: solid 2px #90D5EE;
+    border-bottom: solid 2px #90D5EE;
+}
+
+.homepage-project-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.homepage-project {
+    margin: 20px auto;
+    box-shadow: 1px 1px 5px rgba(30, 30, 30, 0.55);
+    border-radius: 3px;
+    padding: 10px;
+    width: 85%;
+}
+
+.homepage-project:hover {
+    box-shadow: 1px 1px 5px rgba(30, 30, 30, 1.0);
+  }
+
+.homepage-project img {
+    width: 100%;
+}
+
+.homepage-project a {
+    color: inherit;
+    font-size: $l-size;
+    text-decoration: none;
+}
+
+.homepage-project a:visited {
+    color: #000;
+}
+
+
+@media (min-width: $desktop-breakpoint) {
+    .homepage-projects h2 {
+        margin-right: 0;
+    }
+    .homepage-project-container {
+        flex-direction: row;
+    } 
+
+    .homepage-project {
+        margin: 20px auto;
+        padding: 20px;
+        width: 22%;
+    }
+}

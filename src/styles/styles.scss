@@ -1,0 +1,16 @@
+// Personal WebPage
+@import './base/settings';
+@import './base/base';
+@import './components/about';
+@import './components/contact';
+@import './components/footer';
+@import './components/header';
+@import './components/projects';
+@import './components/socialmedia';
+
+// ListList Application
+@import '../projects/listlist/styles/base/settings';
+@import '../projects/listlist/styles/components/listlist';
+@import '../projects/listlist/styles/components/list';
+@import '../projects/listlist/styles/components/list-item';
+@import '../projects/listlist/styles/components/form';

@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input {
+    background: $secondary-color;
+    border: none;
+    color: lighten($main-color, 10%);
+    height: 5vh;
+    padding: 0 1vh;
+    width: 100vw;
+}
+
+.form__input:focus {
+    outline: none;
+}
+
+.form__button {
+    background: $third-color;
+    border: none;
+    color: lighten($main-color, 10%);
+    height: 5vh;
+    max-width: 100vw;
+}
+
+.form__button:focus {
+    outline: none;
+}
+@media (min-width: $listlist-desktop-breakpoint) {
+    .form__input {
+        color: lighten($main-color, 10%);
+        height: $l-size;
+        padding: 0 1rem;
+        max-width: 17rem;
+    }
+    .form__button {
+        height: $l-size;
+        margin-top: $s-size;
+        max-width: $desktop-side-max-width;
+    }
+}
