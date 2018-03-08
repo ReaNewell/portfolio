@@ -6,9 +6,9 @@ const Projects = () => (
         <h2>Projects</h2>
         <div className='homepage-project-container'>
             <Project
-                imagelocation="/img/shuffled-entry-selector.png" 
-                name="Shuffled Entry Selector"
-                address="https://reanewell.github.io/shuffled-entry-selector/"
+                imagelocation="/img/raffl.png" 
+                name="raffl"
+                address="https://reanewell.github.io/raffl/"
                 description="Create a list of entries and randomly select one entry from the list."
             />
             <Project 
