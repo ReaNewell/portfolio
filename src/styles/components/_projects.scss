@@ -15,10 +15,11 @@
 }
 
 .homepage-project {
-    margin: 20px auto;
+    margin: $s-size auto;
     box-shadow: 1px 1px 5px rgba(30, 30, 30, 0.55);
     border-radius: 3px;
     padding: 10px;
+    position: relative;
     width: 85%;
 }
 
@@ -27,24 +28,48 @@
   }
 
 .homepage-project img {
-    width: 100%;
+    float: left;
+    width: 20%;
 }
-
-.homepage-project a {
-    color: inherit;
+.homepage-project h3 {
+    float: left;
     font-size: $l-size;
+    padding-left: $s-size;
+}
+.homepage-project a {
+    color: #90D5EE;
+    font-size: $m-size;
     text-decoration: none;
 }
-
 .homepage-project a:visited {
-    color: #000;
+    color: rgb(114, 171, 192);
+}
+
+.homepage-project p {
+    clear: both;
+    margin-bottom: $s-size;
+}
+
+.homepage-project__button {
+    background: linear-gradient(45deg,#90D5EE, rgb(199, 221, 230));
+    border: none;
+    color: white;
+    height: 4rem;
+    margin: 0 0 $s-size 7.5%;
+    width: 10rem;
+}
+
+.homepage-project-infobutton {
+    background: white;
+    border: none;
+    top: 3px;
+    color: #757575;
+    position: relative;
+    right: -90%;
 }
 
 
 @media (min-width: $desktop-breakpoint) {
-    .homepage-projects h2 {
-        margin-right: 0;
-    }
     .homepage-project-container {
         flex-direction: row;
     } 
@@ -52,6 +77,28 @@
     .homepage-project {
         margin: 20px auto;
         padding: 20px;
-        width: 22%;
+        width: 30%;
+    }
+    .homepage-project h3 {
+        float: none;
+        font-size: $l-size;
+        padding-left: 0;
+    }
+    .homepage-project img {
+        float: none;
+        width: 100%;
+    }
+    .homepage-project p {
+        clear: auto;
+        margin-top: $xs-size;
+    }
+
+    .homepage-project__button {
+        background: linear-gradient(45deg,#90D5EE, rgb(199, 221, 230));
+        border: none;
+        color: white;
+        height: 5rem;
+        margin: $s-size $l-size $l-size;
+        width: 10rem;
     }
 }
