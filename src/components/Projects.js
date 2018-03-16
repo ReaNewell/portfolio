@@ -17,9 +17,9 @@ class Projects extends React.Component {
     }
     render() {
         return (
-            <div className='homepage-projects main-container'>
-                <h2>Projects</h2>
-                <div className='homepage-project-container'>
+            <div className='projects main-container' id='projects'>
+                <h2 className="subtitle">Projects</h2>
+                <div className='project-container'>
                     <Project
                         imagelocation="/img/raffl.png" 
                         name="raffl"
@@ -57,7 +57,7 @@ class Projects extends React.Component {
                         </div>
                     } 
                 </div>
-                { this.state.extraProjectsShown ? <button onClick={this.showLessProjects} className="homepage-project__button">Show Less</button> : <button onClick={this.showMoreProjects} className="homepage-project__button">Show More</button> }
+                { this.state.extraProjectsShown ? <button onClick={this.showLessProjects} className="project-button">Show Less</button> : <button onClick={this.showMoreProjects} className="project-button">Show More</button> }
             </div>
         )
     }   

@@ -1,20 +1,10 @@
-.homepage-projects h2 {
-    margin-bottom: 25px;
-    margin-right: $s-size;
-    text-align: right;
-    color: #90D5EE;
-    font-size: 40px;
-    border-left: solid 2px #90D5EE;
-    border-bottom: solid 2px #90D5EE;
-}
-
-.homepage-project-container {
+.project-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.homepage-project {
+.project {
     margin: $s-size auto;
     box-shadow: 1px 1px 5px rgba(30, 30, 30, 0.55);
     border-radius: 3px;
@@ -23,34 +13,34 @@
     width: 85%;
 }
 
-.homepage-project:hover {
-    box-shadow: 1px 1px 5px rgba(30, 30, 30, 1.0);
+.project:hover {
+    box-shadow: 2px 2px 10px rgb(80, 117, 131);
   }
 
-.homepage-project img {
+.project-image {
     float: left;
     width: 20%;
 }
-.homepage-project h3 {
+.project-name {
     float: left;
     font-size: $l-size;
     padding-left: $s-size;
 }
-.homepage-project a {
+.project__link {
     color: #90D5EE;
     font-size: $m-size;
     text-decoration: none;
 }
-.homepage-project a:visited {
+.project__link:visited {
     color: rgb(114, 171, 192);
 }
 
-.homepage-project p {
+.project__description {
     clear: both;
     margin-bottom: $s-size;
 }
 
-.homepage-project__button {
+.project-button {
     background: linear-gradient(45deg,#90D5EE, rgb(199, 221, 230));
     border: none;
     color: white;
@@ -59,7 +49,7 @@
     width: 10rem;
 }
 
-.homepage-project-infobutton {
+.project-infobutton {
     background: white;
     border: none;
     top: 3px;
@@ -70,30 +60,30 @@
 
 
 @media (min-width: $desktop-breakpoint) {
-    .homepage-project-container {
+    .project-container {
         flex-direction: row;
     } 
 
-    .homepage-project {
+    .project {
         margin: 20px auto;
         padding: 20px;
         width: 30%;
     }
-    .homepage-project h3 {
+    .project-name {
         float: none;
         font-size: $l-size;
         padding-left: 0;
     }
-    .homepage-project img {
+    .project-image {
         float: none;
         width: 100%;
     }
-    .homepage-project p {
+    .project__description {
         clear: auto;
         margin-top: $xs-size;
     }
 
-    .homepage-project__button {
+    .project-button {
         background: linear-gradient(45deg,#90D5EE, rgb(199, 221, 230));
         border: none;
         color: white;

@@ -24,13 +24,13 @@ class Project extends React.Component {
     }
     render() {
         return (
-            <div className='homepage-project' onClick={this.changeDisplay}>
-                <img src={this.props.imagelocation} alt="filler image"/> <br/>
-                <h3>{this.props.name}</h3>
-                <p>{this.props.description}</p>
-                {this.state.infoExtended && <a href={this.props.address} target="_blank">Project Website</a>}
-                {this.state.infoExtended && <a href={this.props.repository} target="_blank"><p>Github Repository</p></a>}
-                {this.state.infoExtended && <p>Skills: {this.props.skills}</p>}
+            <div className='project' onClick={this.changeDisplay}>
+                <img className="project-image" src={this.props.imagelocation} alt="filler image"/> <br/>
+                <h3 className="project-name">{this.props.name}</h3>
+                <p className="project__description">{this.props.description}</p>
+                {this.state.infoExtended && <a className="project__link" href={this.props.address} target="_blank">Project Website</a>}
+                {this.state.infoExtended && <a className="project__link" href={this.props.repository} target="_blank"><p>Github Repository</p></a>}
+                {this.state.infoExtended && <p className="project__description">Skills: {this.props.skills}</p>}
             </div>
         );
     }

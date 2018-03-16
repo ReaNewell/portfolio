@@ -27,3 +27,13 @@ button:disabled {
     max-width: 90rem;
     margin: 0 auto;
 }
+
+.subtitle {
+    margin-bottom: 25px;
+    margin-right: $s-size;
+    text-align: right;
+    color: #90D5EE;
+    font-size: 40px;
+    border-bottom: solid 2px #90D5EE;
+    padding: $s-size 0;
+}

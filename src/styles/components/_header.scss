@@ -1,4 +1,4 @@
-.homepage-header {
+.header {
     color: white;
     display: flex;
     justify-content: center;
@@ -12,12 +12,26 @@
     background-size: cover;
 }
 
-.homepage-header h1 {
+.header__title {
     font-size: $xl-size;
     text-align: center;
 }
 
-.homepage-header h2 {
+.header__subtitle {
     font-size: $l-size;
     text-align: center;
 }
+
+.header-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: $l-size auto;
+    max-width: 20rem;
+    width: 50%;
+}
+
+.header-navigation__link {
+    color: white;
+    text-decoration: none;
+}
+

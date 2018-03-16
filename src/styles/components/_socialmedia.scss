@@ -1,15 +1,19 @@
-.homepage-socialmedia {
+.socialmedia {
     font-size: 1.8rem;
     text-align: center;
-    margin: $l-size auto;
+    margin: $m-size auto;
 }
 
-.homepage-socialmedia-container {
+.socialmedia-container {
     display: flex;
     justify-content: space-around;
 }
 
-.homepage-socialmedia img {
+.socialmedia-body {
+    padding: 0 $s-size;
+}
+
+.socialmedia__image {
     border: 1px solid rgb(21, 63, 129);
     border-radius: 100px;
     display: block;
@@ -25,7 +29,7 @@
     .homepage-socialmedia {
         font-size: 2.2rem;
     }
-    .homepage-socialmedia img {
+    .socialmedia__image {
         width: 140px;
         height: 140px;
     }
