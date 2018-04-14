@@ -21,7 +21,7 @@ class Projects extends React.Component {
                 <h2 className="subtitle">Projects</h2>
                 <div className='project-container'>
                     <Project 
-                        imagelocation="/img/pupskills.png"
+                        imagelocation="/img/pupskills.jpeg"
                         name="Pup Skills"
                         address="https://pupskills.dog"
                         description="A web application for pet owners who want to keep track of the skills their pup has learned."

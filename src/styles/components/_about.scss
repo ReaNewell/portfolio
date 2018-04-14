@@ -1,14 +1,18 @@
 .about {
     background-color: #64afcb;
+    background: url('/img/newyork.jpg');
+    background-position: center;
+    background-size: cover;
     height: auto;
-    min-height: 30rem;
+    min-height: 50vh;
 }
 
 .about-body {
-    color: #fff;
-    font-size: 1.8rem;
-    margin-right: $s-size;
-    padding: 0 0 $l-size $m-size;
+    background: rgba(255, 255, 255, 0.63);
+    box-shadow: 0 0 10px rgba(213, 213, 213, 0.24);
+    color: #248aaf;
+    font-size: 1.4rem;
+    padding: 1rem;
 }
 
 .about-image {
@@ -17,14 +21,17 @@
     max-height: 15rem;
     max-width: 15rem;
     width: 30vw; 
-    box-shadow: 0 0 40px rgba(21, 63, 129, 0.65);
+    box-shadow: 0 0 40px rgba(21, 62, 129, 0.336);
   }
 
 
 
 @media (min-width: $desktop-breakpoint) {
     .about-body {
-        font-size: 2.4rem;
+        background: rgba(255, 255, 255, 0.849);
+        border-radius: 5px;
+        font-size: 2rem;
+        padding: 3rem;
     }
     .about-image {
         display: block;

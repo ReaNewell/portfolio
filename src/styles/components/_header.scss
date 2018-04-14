@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
 
     background-image: url(/img/header.jpg);
@@ -31,7 +31,10 @@
 }
 
 .header-navigation__link {
-    color: white;
+    color: #FFFFFFdd;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0 1rem;
     text-decoration: none;
 }
 

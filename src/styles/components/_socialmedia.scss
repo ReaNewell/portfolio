@@ -10,10 +10,12 @@
 }
 
 .socialmedia-body {
+    color: #ffffffcc;
     padding: 0 $s-size;
 }
 
 .socialmedia__image {
+    background: white;
     border: 1px solid rgb(21, 63, 129);
     border-radius: 100px;
     display: block;

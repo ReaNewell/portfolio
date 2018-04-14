@@ -1,5 +1,10 @@
+.footer-container{
+    background: linear-gradient(10deg,#9db8eb, rgb(109, 218, 212));
+    border-top: 2px solid white;
+}
 .footer {
+    color: white;
     display: flex;
     justify-content: space-between;
-    padding: .5rem;
+    padding: 2rem .5rem;
 }
