@@ -14,27 +14,31 @@
 
 .header__title {
     font-size: $xl-size;
+    font-weight: 300;
+    letter-spacing: 5px;
     text-align: center;
 }
 
 .header__subtitle {
     font-size: $l-size;
+    font-weight: 300;
     text-align: center;
 }
 
 .header-navigation {
+    border: 2px solid #ffffff75;
+    box-sizing: content-box;
     display: flex;
     justify-content: space-around;
     margin: $l-size auto;
-    max-width: 20rem;
-    width: 50%;
+    padding: 10px;
+    width: 25rem;
 }
 
 .header-navigation__link {
     color: #FFFFFFdd;
     cursor: pointer;
     font-size: 2rem;
-    padding: 0 1rem;
     text-decoration: none;
 }
 
