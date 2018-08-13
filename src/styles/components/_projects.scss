@@ -8,36 +8,44 @@
     margin: $s-size auto;
     box-shadow: 1px 1px 5px rgba(30, 30, 30, 0.55);
     border-radius: 3px;
+    cursor: pointer;
     padding: 10px;
     position: relative;
     width: 85%;
+
+    :hover {
+        box-shadow: 2px 2px 10px rgb(80, 117, 131);
+    }
 }
 
-.project:hover {
-    box-shadow: 2px 2px 10px rgb(80, 117, 131);
-  }
-
 .project-image {
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.5);
     float: left;
+    margin-bottom: $s-size;
     width: 20%;
 }
 .project-name {
     float: left;
     font-size: $l-size;
-    padding-left: $s-size;
+    padding-left: $m-size;
 }
 .project__link {
-    color: #90D5EE;
+    color: #2986ac;
+    display: block;
     font-size: $m-size;
+    padding: .5rem;
+    text-align: center;
     text-decoration: none;
-}
-.project__link:visited {
-    color: rgb(114, 171, 192);
+    width: 100%;
+
+    :visited {
+        color: #2986ac;
+    }
 }
 
 .project__description {
     clear: both;
-    margin-bottom: $s-size;
+    margin: $s-size 0;
 }
 
 .project-button {

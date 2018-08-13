@@ -1,5 +1,5 @@
 .contact {
-    background-color: #64afcb;
+    background: linear-gradient(#64afcb, white);
     color: #2986ac;
     font-size: 2.2rem;
     padding-bottom: $l-size;
@@ -10,4 +10,10 @@
     padding: 1rem 0;
     position: relative;
     text-align: center;
+
+    span {
+        font-weight: 500;
+    }
 }
+
+// #64afcb  #2986ac

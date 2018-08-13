@@ -29,7 +29,7 @@ class Project extends React.Component {
                 <h3 className="project-name">{this.props.name}</h3>
                 <p className="project__description">{this.props.description}</p>
                 {this.state.infoExtended && <a className="project__link" href={this.props.address} target="_blank">Project Website</a>}
-                {this.state.infoExtended && <a className="project__link" href={this.props.repository} target="_blank"><p>Github Repository</p></a>}
+                {this.state.infoExtended && <a className="project__link" href={this.props.repository} target="_blank">Github Repository</a>}
                 {this.state.infoExtended && <p className="project__description">Skills: {this.props.skills}</p>}
             </div>
         );

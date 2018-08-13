@@ -7,22 +7,24 @@
 .socialmedia-container {
     display: flex;
     justify-content: space-around;
+    margin-top: $l-size;
 }
 
 .socialmedia-body {
-    color: #ffffffcc;
+    color: #2986ac;
     padding: 0 $s-size;
+    opacity: .9;
 }
 
 .socialmedia__image {
     background: white;
     border: 1px solid rgb(21, 63, 129);
     border-radius: 100px;
-    display: block;
-    margin-top: $m-size;
-  
     width: 75px;
     height: 75px;
+}
+.socialmedia__image--instagram {
+    padding: 7px;
 }
 
 
