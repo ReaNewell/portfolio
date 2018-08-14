@@ -30,8 +30,7 @@ button:disabled {
 }
 
 .subtitle {
-    margin-bottom: 25px;
-    margin-right: $s-size;
+    margin: 0 $s-size 25px $s-size;
     text-align: right;
     color: #90D5EE;
     font-size: 40px;
