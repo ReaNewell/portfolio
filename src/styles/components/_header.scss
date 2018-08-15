@@ -13,14 +13,14 @@
 }
 
 .header__title {
-    font-size: $xl-size;
+    font-size: $font-xl;
     font-weight: 300;
     letter-spacing: 1.2rem;
     text-align: center;
 }
 
 .header__subtitle {
-    font-size: $l-size;
+    font-size: $font-l;
     font-weight: 300;
     text-align: center;
 }
@@ -38,7 +38,7 @@
 .header-navigation__link {
     color: #FFFFFFdd;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: $font-m;
     text-decoration: none;
 }
 

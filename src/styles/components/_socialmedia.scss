@@ -1,5 +1,5 @@
 .socialmedia {
-    font-size: 1.8rem;
+    font-size: $font-s;
     text-align: center;
     margin: $m-size auto;
 }
@@ -30,9 +30,6 @@
 
 
 @media (min-width: $desktop-breakpoint) {
-    .homepage-socialmedia {
-        font-size: 2.2rem;
-    }
     .socialmedia__image {
         width: 140px;
         height: 140px;

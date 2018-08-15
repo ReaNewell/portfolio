@@ -26,13 +26,13 @@
 }
 .project-name {
     float: left;
-    font-size: $l-size;
+    font-size: $font-l;
     padding-left: $m-size;
 }
 .project__link {
     color: #2986ac;
     display: block;
-    font-size: $m-size;
+    font-size: 1.6rem;
     padding: .5rem;
     text-align: center;
     text-decoration: none;
@@ -79,7 +79,7 @@
     }
     .project-name {
         float: none;
-        font-size: $l-size;
+        font-size: $font-l;
         padding-left: 0;
     }
     .project-image {
