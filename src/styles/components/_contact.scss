@@ -1,17 +1,18 @@
 .contact {
-    background: linear-gradient(#64afcb, white);
-    color: #2986ac;
-    font-size: $font-m;
-    padding-bottom: $l-size;
+    background: white;
+    color: white;
+    font-size: 2rem;
+    padding: $l-size 0;
 }
 
 .contact-body {
-    background-color: rgba(144, 213, 238, 0.871);
+    background-color: lighten($purple-light, 12%);
     padding: 1rem 0;
     position: relative;
     text-align: center;
 
     span {
         font-weight: 500;
+        color: $purple-light;
     }
 }
