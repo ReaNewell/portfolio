@@ -44,7 +44,7 @@ class Projects extends React.Component {
                         repository="https://github.com/ReaNewell/pet-gallery"
                         skills="HTML CSS JavaScript"
                     />
-                    {this.state.extraProjectsShown && 
+                    {/* {this.state.extraProjectsShown && 
                         <div className='project-container'>
                             <Project 
                             imagelocation="/img/listlist.png"
@@ -63,9 +63,9 @@ class Projects extends React.Component {
                                 skills="HTML CSS JavaScript"
                             />
                         </div>
-                    } 
+                    }  */}
                 </div>
-                { this.state.extraProjectsShown ? <button onClick={this.showLessProjects} className="project-button">Show Less</button> : <button onClick={this.showMoreProjects} className="project-button">Show More</button> }
+                {/* { this.state.extraProjectsShown ? <button onClick={this.showLessProjects} className="project-button">Show Less</button> : <button onClick={this.showMoreProjects} className="project-button">Show More</button> } */}
             </div>
         )
     }   

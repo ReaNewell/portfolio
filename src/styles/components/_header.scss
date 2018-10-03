@@ -16,6 +16,7 @@
     font-size: $font-xl;
     font-weight: 300;
     letter-spacing: 1.2rem;
+    padding-left: 12px;
     text-align: center;
 }
 
@@ -32,7 +33,7 @@
     justify-content: space-around;
     margin: $l-size auto;
     padding: 10px;
-    width: 25rem;
+    width: 30rem;
 }
 
 .header-navigation__link {
@@ -41,4 +42,3 @@
     font-size: $font-m;
     text-decoration: none;
 }
-

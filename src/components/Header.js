@@ -29,6 +29,7 @@ class Header extends React.Component {
                         <p className="header-navigation__link" onClick={this.scrollToProjects}>Projects</p>
                         <p className="header-navigation__link" onClick={this.scrollToAbout}>About</p>
                         <p className="header-navigation__link" onClick={this.scrollToContact}>Contact</p>
+                        <a className='header-navigation__link' href='https://blog.reanewell.com' target='_blank'>Blog</a>
                     </div>
                 </div>
             </div>
