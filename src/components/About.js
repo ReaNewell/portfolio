@@ -4,7 +4,7 @@ const About = () => (
     <div className="about" id="about">
         <div className='main-container'>
             <p className="about-body">
-                <img className="about-image" src="/img/reanewell.jpg" alt="Picture of Me"/>
+                <img alt='photo of Rea Newell' className="about-image" src="/img/reanewell.jpg" alt="Picture of Me"/>
                 Hello! My name is Rea Newell. 
                 I am on a mission to become a web developer. 
                 My goal is to build websites and web applications that draw in and compel their users. 

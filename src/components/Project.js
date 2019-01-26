@@ -25,7 +25,7 @@ class Project extends React.Component {
     render() {
         return (
             <div className='project' onClick={this.changeDisplay}>
-                <img className="project-image" src={this.props.imagelocation} alt="filler image"/> <br/>
+                <img className="project-image" src={this.props.imagelocation} alt={"photo from " + this.props.name}/> <br/>
                 <h3 className="project-name">{this.props.name}</h3>
                 <p className="project__description">{this.props.description}</p>
                 {this.state.infoExtended && <a className="project__link" href={this.props.address} target="_blank">Project Website</a>}
