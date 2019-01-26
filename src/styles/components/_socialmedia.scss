@@ -11,7 +11,7 @@
 }
 
 .socialmedia-body {
-    color: $blue-dark;
+    color: darken($blue-dark, 10%);
     padding: 0 $s-size;
     opacity: .9;
 }
