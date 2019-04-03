@@ -1,102 +1,28 @@
-.project-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 1rem 0;
+.projects-container {
+    background: #efefef55;
+	padding-bottom: 4rem;
+}
+
+.projects {
+    min-height: auto;
 }
 
 .project {
-    background: white;
-    margin: $s-size auto;
-    box-shadow: 1px 1px 5px hsla(0, 0%, 12%, 0.55);
-    border-radius: 3px;
-    cursor: pointer;
-    padding: 10px;
-    position: relative;
-    width: 85%;
-}
-.project:hover {
-    box-shadow: 2px 2px 10px #4f816c;
-}
+    width: 30%;
 
-.project-image {
-    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.5);
-    float: left;
-    margin-bottom: $s-size;
-    width: 20%;
-}
-.project-name {
-    float: left;
-    font-size: $font-l;
-    padding-left: $m-size;
-}
-.project__link {
-    color: $blue-dark;
-    display: block;
-    font-size: 1.6rem;
-    padding: .5rem;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-
-    :visited {
-        color: $blue-dark;
+    &__image {
+        box-shadow: 0 3px 15px #aaa;
+		width: 100%;
+    }
+    &__name {
+        font-family: Hiragino Sans GB;
+		margin: 1rem 0;
+    }
+    &__description {
+        line-height: 1.5rem;
     }
 }
-
-.project__description {
-    clear: both;
-    margin: $s-size 0;
-}
-
-.project-button {
-    background: linear-gradient(45deg,$blue-light, $green-med);
-    border: none;
-    color: white;
-    height: 4rem;
-    margin: $s-size 0 $m-size 7.5%;
-    width: 85vw;
-}
-
-.project-infobutton {
-    background: white;
-    border: none;
-    top: 3px;
-    color: #757575;
-    position: relative;
-    right: -90%;
-}
-
 
 @media (min-width: $desktop-breakpoint) {
-    .project-container {
-        flex-direction: row;
-    } 
 
-    .project {
-        margin: 20px auto;
-        padding: 20px;
-        width: 30%;
-    }
-    .project-name {
-        float: none;
-        font-size: $font-l;
-        padding-left: 0;
-    }
-    .project-image {
-        float: none;
-        width: 100%;
-    }
-    .project__description {
-        clear: auto;
-        margin-top: $xs-size;
-    }
-
-    .project-button {
-        height: 5rem;
-        margin: 0 auto $m-size auto ;
-        left: 30%;
-        position: relative;
-        width: 40%;
-    }
 }

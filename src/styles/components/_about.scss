@@ -1,62 +1,45 @@
 .about {
-    background-color: $blue-med;
-    background: url('/img/newyork.jpg');
-    background-position: center;
-    background-size: cover;
-    border-bottom: 1px solid $blue-light;
-    border-top: 1px solid $blue-light;
-    padding: $l-size 0;
+    padding-top: 1rem;
+	
+	.about-box{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	
+	img {
+		display: block;
+		height: 95vw;
+		max-height: 25rem;
+		max-width: 25rem;
+		margin: 0 .5rem;
+		width: 25rem;
+		width: 95vw;
 
-    p {
-        align-items: center;
-        box-shadow: 0 8px 30px hsla(0, 0%, 27%, 0.714);
-        display: flex;
-        flex-direction: column;
-        left: 5vw;
-        position: relative;
-        width: 90vw;
+		-webkit-clip-path: polygon(8% 4%, 92% 2%, 95% 95%, 3% 98%);
+		clip-path: polygon(8% 4%, 92% 2%, 95% 95%, 3% 98%);
+	}
+	p {
+		font-family: Helvetica;
+		font-size: 1rem;
+		line-height: 2.2rem;
+		max-width: 60ch;
+		
+		br {
+			content: "";
+			display: block;
+			margin: 2rem;
+		}
+		span {
+			background: #404040;
+			border-radius: .6rem;
+			color: hsl(0, 0%, 99%);
+			padding: .4rem;
+		}
+    }
     }
 }
-
-.about-body {
-    background: rgba(255, 255, 255, 0.80);
-    box-shadow: 0 0 10px rgba(213, 213, 213, 0.24);
-    color: $blue-dark;
-    font-size: $font-s;
-    font-weight: 500;
-    line-height: 2rem;
-    padding: 1rem;
-}
-
-.about-image {
-    margin: $m-size;
-    max-height: 25rem;
-    max-width: 25rem;
-    box-shadow: 0 0 40px rgba(21, 62, 129, 0.336);
-  }
-
 
 
 @media (min-width: $desktop-breakpoint) {
-    .about p {
-        flex-direction: row;
-        left: auto;
-        position: static;
-        width: auto;
-    }
-    .about-body {
-        background: rgba(255, 255, 255, 0.849);
-        border-radius: 5px;
-        padding: 3rem;
-    }
-    .about-image {
-        display: block;
-        flex-basis: 20rem;
-        text-align: center;
-        margin: auto auto;
-        height: 25rem;
-        margin-bottom: 25px;
-        border-radius: 50%;
-        margin: $m-size;
-    }
+   
 }

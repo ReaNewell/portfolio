@@ -1,9 +1,26 @@
 .footer-container{
-    background: linear-gradient(90deg,$blue-light,$green-light , $purple-light);
+    background: #fff;
 }
 .footer {
-    color: white;
+    align-items: center;
+    color: #90edc7;
     display: flex;
+    font-family: Hiragino Sans GB;
+    font-size: .8rem;
     justify-content: space-between;
-    padding: 2rem .5rem;
+    height: 6rem;
+    margin: 0 auto;
+    max-width: 70rem;
+    text-align: center;
+
+    &__image {
+        background: white;
+        border-radius: 2rem;
+        height: 5rem;
+        padding: 1rem;
+        width: 7rem;
+    }
+    p {
+        color: #000;
+    }
 }

@@ -1,0 +1,52 @@
+.design-container {
+    background-image: url("/img/designboard.jpg");
+	background-size: cover;
+	background-position: center;
+	-webkit-clip-path: polygon(0% 4%, 100% 0%, 100% 95%, 0 100%);
+	clip-path: polygon(0% 4%, 100% 0%, 100% 95%, 0 100%);
+	margin-top: -5rem;
+}
+
+.designs {
+    margin-bottom: 3rem;
+	
+	.design-board {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		
+		img {
+			background: #242424;
+			box-shadow: 0px 5px 15px #26262690;
+			height: 17rem;
+			margin: 0 .5rem 3rem 0;
+		}
+	}
+}
+
+@media (max-width: 70rem) {
+	.designs {
+		.design-board {
+			justify-content: center;
+			img {
+				height: 20rem;
+				margin: 0 .5rem 3rem 0;
+			}
+		}
+	}
+}
+@media (max-width: 45rem) {
+	.design-container {
+		-webkit-clip-path: polygon(0% 2%, 100% 0%, 100% 98%, 0 100%);
+		clip-path: polygon(0% 2%, 100% 0%, 100% 98%, 0 100%);
+	}
+	.designs {
+		.design-board {
+			img {
+				height: 100%;
+				margin: 0 0 1rem 0;
+				width: 95vw;
+			}
+		}
+	}
+}
