@@ -15,10 +15,10 @@ const Contact = () => (
                         Check out some of my designs and progression of other projects on my social media.
                     </p>
                     <div className="social-icons">
-                        <img src="img/twitter.png" alt=""/>
-                        <img src="img/instagram.png" alt=""/>
-                        <img src="img/github.png" alt=""/>
-                        <img src="img/codepen.png" alt=""/>
+                        <img className="social-icons__twitter" src="img/icon-twitter.svg" alt=""/>
+                        <img className="social-icons__instagram" src="img/icon-instagram.svg" alt=""/>
+                        <img className="social-icons__github" src="img/icon-github.svg" alt=""/>
+                        <img className="social-icons__codepen" src="img/icon-codepen.svg" alt=""/>
                     </div>
                 </div>
             </div>

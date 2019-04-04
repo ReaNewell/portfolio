@@ -22,9 +22,10 @@
     border-radius: 100px;
     width: 75px;
     height: 75px;
-}
-.socialmedia__image--instagram {
-    padding: 7px;
+
+    &__twitter {
+        background: linear-gradient(white 50%, #1FA1F2 50%);
+    }
 }
 
 
