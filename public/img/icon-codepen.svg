@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="300" height="300" viewBox="0, 0, 300, 300">
+  <g id="Layer_1"/>
+  <g id="CodePen">
+    <path d="M150,0 C232.843,-0 300,67.157 300,150 C300,232.843 232.843,300 150,300 C67.157,300 -0,232.843 -0,150 C-0,67.157 67.157,-0 150,-0 z M150,5 C69.919,5 5,69.919 5,150 C5,230.081 69.919,295 150,295 C230.081,295 295,230.081 295,150 C295,69.919 230.081,5 150,5 z" fill="#000000"/>
+    <path d="M73.801,125.494 L150.473,74.836 L226.535,126.407 L150.625,176.456 L73.801,125.494 z" fill-opacity="0" stroke="#000000" stroke-width="11" stroke-linejoin="round"/>
+    <path d="M73.801,176.359 L150.473,125.701 L226.535,177.272 L150.625,227.322 L73.801,176.359 z" fill-opacity="0" stroke="#000000" stroke-width="11" stroke-linejoin="round"/>
+    <path d="M73.801,125.494 L73.801,176.359" fill-opacity="0" stroke="#000000" stroke-width="11" stroke-linejoin="round"/>
+    <path d="M150.473,74.836 L150.473,125.701" fill-opacity="0" stroke="#000000" stroke-width="11" stroke-linejoin="round"/>
+    <path d="M226.535,126.407 L226.535,177.272" fill-opacity="0" stroke="#000000" stroke-width="11" stroke-linejoin="round"/>
+    <path d="M150.625,176.456 L150.625,227.322" fill-opacity="0" stroke="#000000" stroke-width="11" stroke-linejoin="round"/>
+  </g>
+</svg>
