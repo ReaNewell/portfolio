@@ -15,11 +15,11 @@
         
         &__title {
             @extend .animation__appear;
-            background: black;
+            background: $gray;
 			border-radius: 6rem;
 			padding: 2rem;
 			color: white;
-			opacity: 0;
+            opacity: 0;
         }
         &__image {
             height: 135px;
@@ -42,7 +42,9 @@
 		margin: 0 auto;
     }
     &__link {
-        background: hsl(198, 58%, 30%);
+        background: linear-gradient(215deg, hsl(198, 58%, 30%) 50%, hsl(198, 78%, 50%) 50%);
+        background-position: bottom left;
+        background-size: 300% 300%;
         border-radius: 1.2rem;
         color: white;
         display: block;
@@ -51,9 +53,10 @@
         margin: 0.25rem 1rem;
         padding: 0.5rem;
         text-decoration: none;
+        transition: .7s;
         
         &:hover {
-            background: hsl(198, 78%, 50%);
+            background-position: top right;
             cursor: pointer;
         }
     }

@@ -56,10 +56,10 @@ class Header extends React.Component {
                 </div>
                 <nav className='navigation'>
                     <ul className='navigation__links'>
-                        <a className="navigation__link" aria-label="scroll to Projects" onClick={this.scrollToProjects} href="#">Projects</a>
-                        <a className="navigation__link" aria-label="scroll to Design Dashboard" onClick={this.scrollToContact} href="#">Design Dashboard</a>
-                        <a className="navigation__link" aria-label="scroll to About Me" onClick={this.scrollToAbout} href="#">About Me</a>
-                        <a className="navigation__link" aria-label="scroll to Get in Touch" onClick={this.scrollToContact} href="#">Get In Touch</a>
+                        <a className="navigation__link" aria-label="scroll to Projects" onClick={this.scrollToProjects} href="#projects">Projects</a>
+                        <a className="navigation__link" aria-label="scroll to Design Dashboard" onClick={this.scrollToContact} href="#designs">Design Dashboard</a>
+                        <a className="navigation__link" aria-label="scroll to About Me" onClick={this.scrollToAbout} href="#about">About Me</a>
+                        <a className="navigation__link" aria-label="scroll to Get in Touch" onClick={this.scrollToContact} href="#contact">Get In Touch</a>
                         <a className='navigation__link' href='https://blog.reanewell.com' target='_blank'>Blog</a>
                     </ul>
                 </nav>
