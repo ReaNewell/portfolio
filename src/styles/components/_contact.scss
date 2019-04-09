@@ -32,12 +32,15 @@
 		margin-top: 2rem;
 		padding: 1rem;
 
+		-webkit-clip-path: polygon(3% 2%, 99% 2%, 98% 100%, 2% 98%);
 		clip-path: polygon(3% 2%, 99% 2%, 98% 100%, 2% 98%);
 	}
 	.contact-email {
 		background: #ffffffee;
 		box-sizing: border-box;
 		font-family: Verdana;
+
+		-webkit-clip-path: polygon(2% 3%, 99% 3%, 100% 98%, 4% 100%);
 		clip-path: polygon(2% 3%, 99% 3%, 100% 98%, 4% 100%);
 		
 		a {

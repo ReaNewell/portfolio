@@ -1,22 +1,29 @@
 .header {
     align-items: center;
 	background: linear-gradient(white);
-	display: flex;
-	flex-direction: column;
+    display: grid;
+    flex-direction: column;
+    grid-template-areas:    '.      .     '
+                            'header header'
+                            '.      nav   '
+                            '.      .     ';
+    grid-template-rows: 20vh 30vh 30vh 20vh;
 	height: 100vh;
     justify-content: center;
     
     &__top {
         align-items:center;
+        background: $gray;
+        border-radius: 6rem;
 		display: flex;
 		font-family: Hiragino Sans GB;
-		font-size: 1.2rem;
+        font-size: 1.2rem;
+        grid-area: header;
         margin-bottom: 2rem;
+        padding: 0 0 0 1.25rem;
         
         &__title {
             @extend .animation__appear;
-            background: $gray;
-			border-radius: 6rem;
 			padding: 2rem;
 			color: white;
             opacity: 0;
@@ -31,50 +38,72 @@
 
 .navigation {
     @extend .animation__appear;
-	animation-delay: 1s;
+    animation-delay: 1s;
+    grid-area: nav;
 	opacity: 0;
 
     &__links {
         display: flex;
+        flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: center;
 		list-style-type: none;
 		margin: 0 auto;
     }
     &__link {
-        background: linear-gradient(215deg, hsl(198, 58%, 30%) 50%, hsl(198, 78%, 50%) 50%);
+        background: linear-gradient(215deg, $gray 50%, white 50%);
         background-position: bottom left;
         background-size: 300% 300%;
         border-radius: 1.2rem;
-        color: white;
+        color: black;
         display: block;
         font-family: arial;
         font-size: 1.20rem;
         margin: 0.25rem 1rem;
         padding: 0.5rem;
         text-decoration: none;
+        text-align: right;
         transition: .7s;
         
         &:hover {
             background-position: top right;
+            color: white;
             cursor: pointer;
         }
     }
 }
 
-.header-navigation {
-    border: 2px solid #ffffff75;
-    box-sizing: content-box;
-    display: flex;
-    justify-content: space-around;
-    margin: $l-size auto;
-    padding: 10px;
-    width: 30rem;
-}
+//
+// MEDIA QUERIES
+//
 
-.header-navigation__link {
-    color: #FFFFFFdd;
-    cursor: pointer;
-    font-size: $font-m;
-    text-decoration: none;
+// TABLET/SMALL WINDOW
+@media (max-width: 70rem) {
+    .header {
+        &__image {
+            transform: scale(0.75);
+        }
+        &__top {
+            font-size: 1rem;
+        }
+    }
+}
+// MOBILE SCREEN
+@media (max-width: 45rem) {
+    .header {
+		&__top {
+			font-size: .5rem;
+            max-width: 85vw;
+            padding: 0 .75rem 0 0;
+			text-align: center;
+            
+			&__image {
+                margin-right: 0rem;
+                transform: scale(0.65);
+            }
+            &__title {
+                padding: 0 .5rem 0 0;
+            }
+		}
+	}
 }
