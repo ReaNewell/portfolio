@@ -27,10 +27,10 @@ class Project extends React.Component {
             <div className='project' onClick={this.changeDisplay}>
                 <img className="project__image" src={this.props.imagelocation} alt={"photo from " + this.props.name}/> <br/>
                 <h3 className="project__name">{this.props.name}</h3>
+                <div className="project__description">{this.props.skills.map((skill, index) => <p className="project__skill" key={index}>{skill}</p>)}</div>
                 <p className="project__description">{this.props.description}</p>
-                {/* {this.state.infoExtended && <a className="project__link" href={this.props.address} target="_blank">Project Website</a>}
-                {this.state.infoExtended && <a className="project__link" href={this.props.repository} target="_blank">Github Repository</a>}
-                {this.state.infoExtended && <p className="project__description">Skills: {this.props.skills}</p>} */}
+                <a className="project__link" href={this.props.address} target="_blank">Project Website</a>
+                <a className="project__link" href={this.props.repository} target="_blank">Github Repository</a>
             </div>
         );
     }

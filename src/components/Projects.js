@@ -24,10 +24,10 @@ class Projects extends React.Component {
                         <Project 
                             imagelocation="/img/pupskills.png"
                             name="Pup Skills"
-                            address="https://pupskills.dog"
+                            address="https://pup-skills.firebaseapp.com"
                             description="Pup Skills is a place for you to keep track of the skills you have been working on with your dog. Record and update the progress you are having with your pups."
                             repository="https://github.com/ReaNewell/pup-skills"
-                            skills="HTML CSS JavaScript React Redux Firebase Jest"
+                            skills={['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Firebase', 'Jest']}
                         />
                     </div>
                 </section>

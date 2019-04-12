@@ -107,3 +107,12 @@
 		}
 	}
 }
+// HORIZONTAL MOBILE SCREEN
+@media (max-width: 45rem) and (orientation: landscape) {
+    .navigation {
+
+        &__links {
+            flex-direction: row;
+        }
+    }
+}

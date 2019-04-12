@@ -20,6 +20,21 @@
     }
     &__description {
         line-height: 1.5rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    &__link {
+        color: $gray;
+        font-family: Hiragino Sans GB;
+        margin-right: .5rem;
+    }
+    &__skill {
+        background: $gray;
+        border-radius: 1rem;
+        color: white;
+        display: inline-block;
+        margin: 0 .25rem .5rem 0;
+        padding: .2rem .5rem;
     }
 }
 
