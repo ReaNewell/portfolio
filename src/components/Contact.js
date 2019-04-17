@@ -15,10 +15,10 @@ const Contact = () => (
                         Check out some of my designs and progression of other projects on my social media.
                     </p>
                     <div className="social-icons">
-                        <img className="social-icons__twitter" src="img/icon-twitter.svg" alt=""/>
-                        <img className="social-icons__instagram" src="img/icon-instagram.svg" alt=""/>
-                        <img className="social-icons__github" src="img/icon-github.svg" alt=""/>
-                        <img className="social-icons__codepen" src="img/icon-codepen.svg" alt=""/>
+                        <a href='https://twitter.com/reanewell' target='_blank'><img className="social-icons__twitter" src="img/icon-twitter.svg" alt=""/></a>
+                        <a href='https://www.instagram.com/rea.webdev' target='_blank'><img className="social-icons__instagram" src="img/icon-instagram.svg" alt=""/></a>
+                        <a href='https://github.com/ReaNewell' target='_blank'><img className="social-icons__github" src="img/icon-github.svg" alt=""/></a>
+                        <a href='https://codepen.io/reanewell' target='_blank'><img className="social-icons__codepen" src="img/icon-codepen.svg" alt=""/></a>
                     </div>
                 </div>
             </div>
